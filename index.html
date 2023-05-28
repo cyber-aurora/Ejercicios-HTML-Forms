@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <form id="my-form">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="age">Edad:</label>
+      <input type="number" id="age" name="age"><br>
+
+      <label for="description"> ¿Cual es tu estado laboral actual?</label>
+      <select id="description" name="description">
+        <option value="unemployed">Desempleado</option>
+        <option value="employed">Con Trabajo</option>
+        <option value="studient">Estudiante</option>
+      </select><br>
+
+      <label>¿Recomendaría este sitio?</label><br>
+      <input type="radio" id="yes" name="recommendation" value="yes">
+      <label for="yes">Si</label><br>
+      <input type="radio" id="no" name="recommendation" value="no">
+      <label for="no">No</label><br>
+      <input type="radio" id="maybe" name="recommendation" value="maybe">
+      <label for="maybe">Tal vez</label><br>
+
+      <label>Lenguaje y marcos conocidos:</label><br>
+      <input type="checkbox" id="java" name="language" value="c">
+      <label for="c">C</label><br>
+      <input type="checkbox" id="python" name="language" value="c++">
+      <label for="c++">C++</label><br>
+      <input type="checkbox" id="javascript" name="language" value="c#">
+      <label for="c#">C#</label><br>
+      <input type="checkbox" id="html" name="language" value="java">
+      <label for="java">Java</label><br>
+      <input type="checkbox" id="css" name="language" value="python">
+      <label for="python">Python</label><br>
+      <input type="checkbox" id="js" name="language" value="js">
+      <label for="js">JavaScript</label><br>
+      <input type="checkbox" id="py" name="language" value="react">
+      <label for="react">React</label><br>
+      <input type="checkbox" id="ruby" name="language" value="angular">
+      <label for="angular">Angular</label><br>
+      <input type="checkbox" id="rust" name="language" value="django">
+      <label for="django">Django</label><br>
+      <input type="checkbox" id="rust" name="language" value="spring">
+      <label for="spring">Spring</label><br>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="formsubmit.js"></script>  
+  </body>
+</html>
+
